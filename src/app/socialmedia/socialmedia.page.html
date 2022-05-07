@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <!--Logo image imported from assets-->
+    <img src="../assets/icon/euroleague_logo.png" height="150px">
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<!--Navigation buttons-->
+<ion-button color="blue" [routerLink]="['/home']" routerDirection=forward>Home</ion-button>
+<br>
+<ion-button color="blue" [routerLink]="['/teams']" routerDirection=forward>Euroleague Teams</ion-button>
+<br>
+<ion-button color="blue" [routerLink]="['/socialmedia']" routerDirection=forward>Social Media Links</ion-button>
+<br>
+<ion-button color="blue" [routerLink]="['/teamprofile']" routerDirection=forward>Team Profile</ion-button>
+<br>
+
+<!--Social Media Clickable Links-->
+<h2>Keep up to date with the euroleague!</h2>
+<ion-icon name="logo-facebook"></ion-icon><a href="https://www.facebook.com/TheEuroLeague">Facebook</a>
+<br>
+<ion-icon name="logo-twitter"></ion-icon><a href="https://twitter.com/EuroLeague?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
+<br>
+<ion-icon name="logo-youtube"></ion-icon><a href="https://www.youtube.com/euroleague">YouTube</a>
+<br>
+<ion-icon name="logo-Instagram"></ion-icon><a href="https://www.instagram.com/euroleague/?hl=en">Instagram</a>
+<br>
+</ion-content>

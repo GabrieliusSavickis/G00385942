@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <!--Logo image imported from assets-->
+    <img src="../assets/icon/euroleague_logo.png" height="150px">
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+    </ion-toolbar>
+  </ion-header>
+
+  <!--Navigation buttons-->
+  <ion-button color="blue" [routerLink]="['/teams']" routerDirection=forward>Euroleague Teams</ion-button>
+  <br>
+  <ion-button color="blue" [routerLink]="['/socialmedia']" routerDirection=forward>Social Media Links</ion-button>
+  <br>
+  <ion-button color="blue" [routerLink]="['/teamprofile']" routerDirection=forward>Team Profile</ion-button>
+  <br>
+
+  <!--Front Page Description-->
+  <h1>Euroleague</h1>
+  <p>The EuroLeague, known as the Turkish Airlines EuroLeague for sponsorship reasons, is a European professional basketball club competition. </p>
+    <p>The league is widely recognised as the top-tier league in Europe. The league consists of 18 teams </p>
+    <p>(though the three Russian teams are currently suspended because of the 2022 Russian invasion of Ukraine), </p>
+      <p>of which 16 are given long-term licences and wild cards,[2] making the league a semi-closed league.[3][4] </p>
+        <p>The league has been organized by Euroleague Basketball since its formation in 2000.</p>
+</ion-content>

@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <!--Logo image imported from assets-->
+    <img src="../assets/icon/euroleague_logo.png" height="150px">
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+  <ion-header [translucent]="true">
+  
+    <!--Navigation buttons-->
+    <ion-button color="blue" [routerLink]="['/teams']" routerDirection=forward>Euroleague Teams</ion-button>
+    <br>
+    <ion-button color="blue" [routerLink]="['/socialmedia']" routerDirection=forward>Social Media Links</ion-button>
+    <br>
+    <ion-button color="blue" [routerLink]="['/teamprofile']" routerDirection=forward>Team Profile</ion-button>
+    <br>
+
+    <ul>
+      <li>Barcelona</li>
+      <li>Olympiacos</li>
+      <li>Milano</li>
+      <li>Real Madrid</li>
+      <li>Macabi Tel Aviv</li>
+      <li>Anadolu Efes</li>
+      <li>Monaco</li>
+      <li>Bayern Munich</li>
+      <li>Baskonia</li>
+      <li>Alba Berlin</li>
+      <li>Crvena Zvezda</li>
+      <li>Fenerbahce</li>
+      <li>Panathinaikos</li>
+      <li>Lyon</li>
+      <li>Zalgiris</li>
+
+    </ul>
+</ion-content>
